@@ -1,0 +1,24 @@
+{
+  "name": "ts-cli-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/index.js",
+  "bin": {
+    "ts-cli": "./build/index.js"
+  },
+  "scripts": {
+    "build": "npx tsc --project tsconfig.build.json",
+    "test": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@tsconfig/node20": "^20.1.2",
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  }
+}
